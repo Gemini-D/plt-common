@@ -49,6 +49,9 @@
     "extra": {
         "hyperf": {
             "config": "GeminiD\\PltCommon\\ConfigProvider"
+        },
+        "branch-alias": {
+            "dev-main": "1.0-dev"
         }
     }
 }
