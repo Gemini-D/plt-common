@@ -22,5 +22,5 @@ interface UserInterface
     public function ping(): bool;
 
     #[ArrayShape(['id' => 'int'])]
-    public function firstByCode(string $code, string $appid, int|OAuthType $type = OAuthType::WECHAT_MINI_APP);
+    public function firstByCode(string $code, string $appid, int|OAuthType $type = OAuthType::WECHAT_MINI_APP): array;
 }
