@@ -15,4 +15,6 @@ namespace GeminiD\PltCommon\Constant;
 enum OAuthType: int
 {
     case WECHAT_MINI_APP = 0;
+
+    case DOUYIN_MINI_APP = 1;
 }
